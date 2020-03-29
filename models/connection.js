@@ -8,3 +8,5 @@ const connectionSchema = new Schema({
     LevelID: { type: Schema.Types.ObjectId, ref: 'Level' },
     CurrentTypeID: { type: Schema.Types.ObjectId, ref: 'CurrentType' }
 })
+
+module.exports = mongoose.model('Connection', connectionSchema)
