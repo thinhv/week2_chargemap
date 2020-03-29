@@ -1,0 +1,23 @@
+{
+  "name": "week2_chargemap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinhv/week2_chargemap.git"
+  },
+  "author": "Thinh Vo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinhv/week2_chargemap/issues"
+  },
+  "homepage": "https://github.com/thinhv/week2_chargemap#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "mongoose": "^5.9.6"
+  }
+}
