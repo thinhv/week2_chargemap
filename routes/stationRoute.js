@@ -8,6 +8,6 @@ router.get('/:id', stationController.station_get)
 
 router.delete('/:id', stationController.station_delete)
 router.patch('/:id', bodyParser.urlencoded({ extended: false }),stationController.station_update)
-router.post('/', stationController.station_create)
+router.post('/', stationController.station_post)
 
 module.exports = router
